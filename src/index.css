@@ -21,15 +21,15 @@ a {
 a:hover {
   /* color: skyblue; */
   /* color: #595eb8; */
-  color:  rgb(196, 192, 221);
+  color:  rgb(127, 117, 214);
 
   text-decoration: underline;
 }
 
 body {
   margin: 0 auto;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   display: flex;
   justify-content: center;
   place-items: center;
