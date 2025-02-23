@@ -66,7 +66,17 @@ function App() {
   return (
     <>
       <h1>Backend Cheat Sheet</h1>
-      <button onClick={toggleLanguage}>
+      <button 
+        onClick={toggleLanguage}
+        style={{
+          background: language === "en" 
+          ? "linear-gradient(black, red, gold)"  // German flag colors
+          : "linear-gradient(navy, white, red)", // Example English colors (UK-like)
+          color: language === "en" 
+          ? "linear-gradient(black, red, gold)"  // German flag colors
+          : "linear-gradient(navy, white, red)", // Example English colors (UK-like)
+        }}
+      >
         Switch to {language === "en" ? "German" : "English"}
       </button>
       <table>
