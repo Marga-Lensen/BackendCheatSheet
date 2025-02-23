@@ -42,6 +42,49 @@ button:hover {
   cursor: pointer;
 }
 
+.language-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px 0px;
+  border-radius: 6px;
+  /* background: #222; */
+  color: rgb(91, 89, 116);
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.language-toggle:hover {
+  /* background: #444; */
+  color:  rgb(172, 163, 228);
+}
+
+.flags {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.flag {
+  width: 30px;  /* Adjust size */
+  height: 20px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.active {
+  opacity: 1;
+}
+
+.inactive {
+  opacity: 0.3;
+}
+
+.toggle-text {
+  font-size: 14px;
+  white-space: nowrap;
+}
 
 
 table {
