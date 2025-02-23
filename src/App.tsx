@@ -1,5 +1,8 @@
 import { useState } from "react";
+
 import { LanguageProvider, useLanguage } from "./contexts/LanguageContext.js"; // Import the language context
+import germanFlag from "/de.png";  // Adjust path if needed
+import englishFlag from "/gb.png";
 
 import backendLinks from "./data/backendLinks.js"; // Import the static data
 import './App.css'
@@ -69,12 +72,17 @@ function App() {
       <button 
         onClick={toggleLanguage}
         style={{
-          background: language === "en" 
+/*           background: language === "en" 
           ? "linear-gradient(black, red, gold)"  // German flag colors
           : "linear-gradient(navy, white, red)", // Example English colors (UK-like)
           color: language === "en" 
           ? "linear-gradient(black, red, gold)"  // German flag colors
-          : "linear-gradient(navy, white, red)", // Example English colors (UK-like)
+          : "linear-gradient(navy, white, red)", // Example English colors (UK-like) */
+          backgroundImage: `url(${language === "en" ? germanFlag : englishFlag})`,
+          // backgroundSize: "cover",
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
         }}
       >
         Switch to {language === "en" ? "German" : "English"}
