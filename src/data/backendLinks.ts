@@ -49,7 +49,7 @@ export const backendLinks = [
     {
       link: {
         text: "CORS in Express",
-        url: { en: "https://expressjs.com/en/resources/middleware/cors.html", de: "https://expressjs.com/en/resources/middleware/cors.html" }
+        url: { en: "https://expressjs.com/en/resources/middleware/cors.html", de: "https://expressjs.com/de/resources/middleware/cors.html" }
       },
       explanation: {
         en: "Middleware for enabling Cross-Origin Resource Sharing (CORS) in Express applications.",
@@ -118,8 +118,7 @@ export const backendLinks = [
         de: "Standard zur sicheren Übertragung von Informationen als JSON-Objekte."
       }
     },
-    // All other backend links follow...
-  
+   
   
   {
     link: {
@@ -146,7 +145,7 @@ export const backendLinks = [
   {
     link: {
       text: "Axios",
-      url: { en: "https://axios-http.com/", de: "https://axios-http.com/" }
+      url: { en: "https://axios-http.com/", de: "https://axios-http.com/de" }
     },
     explanation: {
       en: "Promise-based HTTP client for making requests in Node.js and browsers.",
@@ -178,7 +177,7 @@ export const backendLinks = [
   {
     link: {
       text: "MongoDB",
-      url: { en: "https://www.mongodb.com/", de: "https://www.mongodb.com/" }
+      url: { en: "https://www.mongodb.com/", de: "https://www.mongodb.com/de" }
     },
     explanation: {
       en: "NoSQL database for scalable and flexible data storage.",
@@ -239,7 +238,7 @@ export const backendLinks = [
   {
     link: {
       text: "Redis",
-      url: { en: "https://redis.io/", de: "https://redis.io/" }
+      url: { en: "https://redis.io/", de: "https://redis.io/de" }
     },
     explanation: {
       en: "In-memory data store for caching and real-time applications.",
