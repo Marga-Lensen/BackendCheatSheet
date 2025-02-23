@@ -27,20 +27,7 @@ h1 {
   text-align: center;
 }
 
-button {
-  /* padding: 29px; */
-  padding-top: 25px;
-  padding-bottom: 25px;
-  /* background: linear-gradient(black, red, gold); */
-  border: none;
-  /* border-radius: 4px; */
-  color: #1f0c2e;
-  font-weight: bold;
-}
-button:hover {
-  color: aliceblue;
-  cursor: pointer;
-}
+
 
 .language-toggle {
   display: flex;
@@ -58,6 +45,7 @@ button:hover {
 .language-toggle:hover {
   /* background: #444; */
   color:  rgb(172, 163, 228);
+  color:  goldenrod;
 }
 
 .flags {
@@ -94,7 +82,7 @@ table {
   /* margin: 0 auto; */
   text-align: center;
   border-collapse: collapse;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 th, td {
@@ -104,7 +92,8 @@ th, td {
 }
 
 th {
-  background-color: #1f0c2e;
+  background-color: #1d072e;
+  color: rgb(153, 161, 168);
 }
 
 .highlight {
