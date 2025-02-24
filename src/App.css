@@ -20,7 +20,7 @@
 
 /* new styles for backend cheat sheet */
 h1 {
-  font-size: 3.2em;
+  font-size: 2.6em;
   color: rgb(209, 157, 24);
   text-shadow: 1px 2px black;
   line-height: 1.1;
@@ -94,6 +94,7 @@ th, td {
 th {
   background-color: #1d072e;
   color: rgb(153, 161, 168);
+  /* color: aliceblue; */
 }
 
 .highlight {
@@ -102,6 +103,33 @@ th {
 }
 .highlight:hover {
   color: rgb(228, 184, 73);
+}
+
+
+.app-container {
+  flex: 1; /* This makes the main content area expand to push the footer down */
+  padding-bottom: 20px; /* Prevents content from touching the footer */
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #222;
+  color: rgb(142, 158, 187);
+  color: rgb(223, 204, 157);
+  text-shadow: 2px 3px black;
+  position: relative; /* Normal positioning to avoid overlap */
+  position: sticky; /* Normal positioning to avoid overlap */
+}
+
+.footer img {
+  width: 50px;
+  border-radius: 50%;
+}
+.footer p {
+  font-size: small;
+  font-weight: bold;
 }
 
 

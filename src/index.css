@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #1a1919;
+  background-color: #161414;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,13 +15,13 @@
 
 a {
   font-weight: 500;
-  color:  rgb(120, 110, 185);
+  color:  rgb(124, 115, 206);
   text-decoration: inherit;
 }
 a:hover {
   /* color: skyblue; */
   /* color: #595eb8; */
-  color:  rgb(137, 127, 224);
+  color:  rgb(162, 155, 206);
 
   text-decoration: underline;
 }
@@ -37,7 +37,20 @@ body {
   min-height: 100vh;
 }
 
+/* Ensure the page takes at least the full height of the viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
 
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the whole page takes at least full height */
+}
 
 /* button {
   border-radius: 8px;

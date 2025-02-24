@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import Footer from "./components/Footer.tsx";
 import { LanguageProvider, useLanguage } from "./contexts/LanguageContext.js"; // Import the language context
 import germanFlag from "/de.png"; // Adjust path if needed
 import englishFlag from "/gb.png";
@@ -71,7 +71,8 @@ function App() {
 
   return (
     <>
-      <h1>Backend Cheat Sheet</h1>
+     <div className="app-container">
+     <h1>Backend Cheat Sheet</h1>
       <div className="language-toggle" onClick={toggleLanguage}>
         <span className="toggle-text">
           {language === "en" ? "Switch to German" : "Switch to English"}
@@ -107,6 +108,8 @@ function App() {
           ))}
         </tbody>
       </table>
+      <Footer />
+     </div>
     </>
   );
 }
