@@ -117,8 +117,7 @@ th {
   padding: 10px;
   background-color: #222;
   color: rgb(142, 158, 187);
-  color: rgb(223, 204, 157);
-  text-shadow: 2px 3px black;
+
   position: relative; /* Normal positioning to avoid overlap */
   position: sticky; /* Normal positioning to avoid overlap */
 }
@@ -130,6 +129,8 @@ th {
 .footer p {
   font-size: small;
   font-weight: bold;
+  color: rgb(223, 204, 157);
+  text-shadow: 2px 3px black;
 }
 
 
