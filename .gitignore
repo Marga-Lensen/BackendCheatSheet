@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# misc folder with unsorted files and folders  i.e. screenshots, notes, etc.
+misc
