@@ -1,9 +1,10 @@
 
-![grafik](https://github.com/user-attachments/assets/c473f6c2-7556-49db-9c13-f4b5e7b5111f)
+![grafik](https://github.com/user-attachments/assets/940429ef-7181-4a51-9461-db14146316a0)
 
 
 
-### WHY?
+
+### Motivation and Urgency
 
 In **preparation of the backend assessment** in February 2025, I wanted to quickly make a cheat sheet with topics relevant for the assessment; 
 
@@ -12,7 +13,7 @@ On the Friday before, we set up a React + Vite + TypeScript project in team work
 During the weekend I worked out the Application;
 
 - perfectionized the Questions
-seeded 
+- wrote context to toggle language DE | EN 
 
 
 
