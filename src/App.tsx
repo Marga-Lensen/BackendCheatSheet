@@ -70,7 +70,7 @@ function App() {
   ]; // Add more as needed
 
   return (
-    <>
+    <div className="app-wrapper">
      <div className="app-container">
      <h1>Backend Cheat Sheet</h1>
       <div className="language-toggle" onClick={toggleLanguage}>
@@ -110,7 +110,7 @@ function App() {
       </table>
       <Footer />
      </div>
-    </>
+    </div>
   );
 }
 

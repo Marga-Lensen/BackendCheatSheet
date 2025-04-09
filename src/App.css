@@ -5,22 +5,14 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+
 
 /* new styles for backend cheat sheet */
 h1 {
-  font-size: 2.6em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Dancing Script, cursive;
+  font-weight: 700;
+  font-size: 2.9em;
   color: rgb(209, 157, 24);
   text-shadow: 1px 2px black;
   line-height: 1.1;
@@ -92,9 +84,17 @@ th, td {
 }
 
 th {
-  background-color: #1d072e;
+  background-color: #341b47cc;
+  background-color: #bb900fe3;
   color: rgb(153, 161, 168);
+  color: rgb(29, 28, 28);
+  text-shadow: 1px 1px #3a3939;
   /* color: aliceblue; */
+}
+
+td {
+  background-color: #2222226b;
+  color: rgb(237, 237, 238);
 }
 
 .highlight {
@@ -105,21 +105,36 @@ th {
   color: rgb(228, 184, 73);
 }
 
+.app-wrapper {
+  padding-bottom: 60px; /* Platz für den festen Footer */
+}
 
 .app-container {
   flex: 1; /* This makes the main content area expand to push the footer down */
   padding-bottom: 20px; /* Prevents content from touching the footer */
 }
 
-.footer {
-  width: 100%;
-  text-align: center;
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  /* justify-content: space-around; */
   padding: 10px;
+}
+
+.footer {  
+  position: sticky; /* Normal positioning to avoid overlap */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 2px solid #2f3d64;
+  text-align: center;
+  /* padding: 10px; */
   background-color: #222;
   color: rgb(142, 158, 187);
-
-  position: relative; /* Normal positioning to avoid overlap */
-  position: sticky; /* Normal positioning to avoid overlap */
+  z-index: 100; /* Sicherstellen, dass er oben drauf liegt */
 }
 
 .footer img {
@@ -134,25 +149,3 @@ th {
 }
 
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}

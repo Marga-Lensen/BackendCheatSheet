@@ -5,10 +5,14 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
+        <p className="copyright">&copy; {new Date().getFullYear()} ML DevLab.</p>
         <img src={logo} alt="ML Logo" className="footer-logo" />
         {/* <span className="brand-name">ML DevLab</span> */}
+        <p> All rights reserved.</p>
       </div>
-      <p className="copyright">&copy; {new Date().getFullYear()} ML DevLab. All rights reserved.</p>
+      
+      
+      
     </footer>
   );
 };
