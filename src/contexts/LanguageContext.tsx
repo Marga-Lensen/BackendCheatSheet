@@ -7,6 +7,7 @@ interface LanguageContextType {
   toggleLanguage: () => void;
 }
 
+// export const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 // Language provider component
@@ -35,3 +36,5 @@ export const useLanguage = (): LanguageContextType => {
   }
   return context;
 };
+
+
